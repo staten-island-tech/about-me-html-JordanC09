@@ -1,18 +1,69 @@
+html,body,*{
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 
-body {
-    background-color:rgb(36, 36, 241);
+}
+body{
+    background-color: black;
+    background-image: url("images/freakbob.gif");
+}
+.size{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 75%;
+    ;
 }
 
-h1  {
+.Dong{
+    background-color: red;
+    height: auto;
+    width: 450px;
     
-    color: red;
-    font-size: 50px;
-
+    margin: 10px auto;
+    padding: 25px;
+    border-radius: 1cm;
 }
 
-.par {
+.row{
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
 
-    color: lawngreen;
-    font-size: 25px;
+.col{
+    display:flex;
+    background-color: purple;
+    margin: 3rem auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 
+    width: 40%;
+
+    border-radius: 1cm;
+    border: 2px solid darkblue;
+
+    /*flex: 23vw;
+    padding: 5px*/
+}
+
+
+.Diddy{
+    color:white;
+}
+#purple{
+    color:purple;
+}
+h1{
+    font-size: 32px;
+    text-align: center;
+    
 }
